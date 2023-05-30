@@ -1,0 +1,149 @@
+/* Обнуляем стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Устанавливаем общий фон и шрифт */
+body {
+  font-family: &amp;amp;quot;Arial&amp;amp;quot;, sans-serif;
+  background-color: #f8f9fa;
+  line-height: 1.5;
+  font-size: 18px;
+}
+/* Оформление шапки сайта */
+header {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  font-size: 30px;
+}
+/* Оформление навигационного меню */
+nav {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+nav .container {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #343a40;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: #343a40;
+  color: #fff;
+}
+/* Оформление контейнера с контентом */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Оформление заголовков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+h4 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+h5 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+h6 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+/* Оформление текста */
+p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+ul,
+ol {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+li:before {
+  content: &amp;quot;&amp;quot;;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+/* Оформление таблиц */
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+/* Оформление ссылок */
+a {
+  color: #007bff;
